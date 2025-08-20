@@ -1,0 +1,5 @@
+# Minimal; `flyctl launch` can refine later
+app = "iris-fly-demo-1"
+[http_service]
+  internal_port = 8080
+  force_https = true
